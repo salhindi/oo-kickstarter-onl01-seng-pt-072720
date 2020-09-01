@@ -11,4 +11,5 @@ class Backer
     while @backed_projects << project
     Project.add_backer(backer) 
   end
+  end
 end
